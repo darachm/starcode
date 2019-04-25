@@ -19,9 +19,9 @@ MAINTAINER darachm
     cd /home
     git clone https://github.com/gui11aume/starcode
     make -C starcode
-    mv starcode/starcode /starcode
+    mv starcode/starcode /usr/local/bin/starcode
 
 %test
 
-    /starcode -h
+    starcode -h
 
